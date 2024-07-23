@@ -13,7 +13,7 @@ pipeline {
         stage('Init') {
             agent { label 'agent1'}
             steps {
-                echo '파이프라인을 시작합니다.'
+                echo '파이프라인을 시작합니다!'
             }
         }
         stage('Checkout') {
